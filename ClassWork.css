@@ -94,7 +94,7 @@ justify-content: space-between;
     width: 30%;
     height: auto    ;
     gap: 5px;
-    border-radius: 7%;
+    border-radius: 5%;
     background-color: wheat;
   
 }
@@ -105,6 +105,7 @@ justify-content: space-between;
 }
 .high{
     display: flex;
+    padding-top: 5%;
     justify-content: center;
     text-align: 10%;
 }
@@ -115,6 +116,45 @@ justify-content: space-between;
     
     padding-left: 3%;
     padding-right: 3%;
+}
+.cook_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+  
+}
+.cook{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    gap: 10px;
+    height: auto;
+    background-image: url("Image/comm_logo.jfif");
+    border-radius: 3%;
+}
+.cook img{
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 100%;
+}
+.cook text{
+    color:wheat;
+}
+.corners{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%;
+    
+}
+.corners img{
+    width:auto;
+    height: auto;
 }
 #footer{
     height: 350px;
